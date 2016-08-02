@@ -1,0 +1,92 @@
+/**********************
+ * Checkbox customize *
+ **********************/
+#box {
+    margin-top: 20%;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+.checking input[type=checkbox] + label {
+    position: relative;
+    padding-left: 18px;
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
+    background: #ffffff;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #adadad;
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #adadad;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #adadad;
+}
+.checking-two input[type=checkbox] + label {
+    position: relative;
+    padding-left: 18px;
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
+    background: #000000;
+}
+
+/* Blue checkbox */
+
+.checking-blue input[type=checkbox]:checked + label {
+    background: url("../img/check_blue.png") center/70% no-repeat;
+    color: red;
+}
+
+/* Red checkbox */
+
+.checking-red input[type=checkbox]:checked + label {
+    background: url("../img/check_red.png") center/70% no-repeat;
+}
+
+/* Black checkbox */
+
+.checking-black input[type=checkbox]:checked + label {
+    background: url("../img/check_black.png") center/70% no-repeat;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #23AFDE;
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #23AFDE;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #23AFDE;
+}
+
+/* Green checkbox */
+
+.checking-green input[type=checkbox]:checked + label {
+    background: url("../img/check_green.png") center/70% no-repeat;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 7px #29AB75;
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 7px #29AB75;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 7px #29AB75;
+}
+
+/* Blue checkbox-two */
+
+.checking-blue input[type=checkbox]:checked + label {
+    background: url("../img/check_blue.png") center/70% no-repeat;
+    color: red;
+}
+
+/* Red checkbox-two */
+
+.checking-red input[type=checkbox]:checked + label {
+    background: url("../img/check_red.png") center/70% no-repeat;
+}
+
+/* Black checkbox-two */
+
+.checking-black input[type=checkbox]:checked + label {
+    background: url("../img/check_black.png") center/70% no-repeat;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #23AFDE;
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #23AFDE;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #23AFDE;
+}
+
+/* Green checkbox-two */
+
+.checking-green input[type=checkbox]:checked + label {
+    background: url("../img/check_green.png") center/70% no-repeat;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 7px #29AB75;
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 7px #29AB75;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 7px #29AB75;
+}
